@@ -1,0 +1,15 @@
+enter these commands in the terminal to make dployment
+
+docker compose up -d --build
+
+ docker exec -it travel-db mysql -uroot -proot      
+
+
+ show databases;
+
+    use travel;
+    show tables;
+    select * from users;
+    INSERT INTO users (username, email, password) VALUES ('john123', 'john@example.com', 'password123');
+    DELETE FROM users WHERE id = 1;
+    select * from users;
